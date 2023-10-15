@@ -1,14 +1,18 @@
+'use client'
 import ProjectCard from '@/components/ProjectCard'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-async function fetchProjects() {
-  const response = await fetch('https://portfolio-hyk.vercel.app/api/projects')
-  const projects = response.json()
-  return projects
-}
+export default function page() {
+  const [projects, setProjects] = useState([])
 
-export default async function page() {
-  const projects = await fetchProjects()
+  useEffect(() => {
+    const fetchProjects = async () => {
+      const res = await fetch('/api/projects')
+      const project = await res.json()
+      setProjects(project)
+    }
+    fetchProjects()
+  }, [])
 
   return (
     <section className="min-h-screen flex-col p-5">
