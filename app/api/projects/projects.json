@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "발로란트 전적 검색",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "Next.js로 구현한 발로란트 전적 검색 사이트",
+    "tags": ["next", "node", "mongodb", "react", "react-native"],
+    "source_code": "https://github.com/junhyeokshin"
+  },
+  {
+    "id": 2,
+    "name": "Clerk Auth",
+    "image": "https://imgur.com/kbGs6zH.png",
+    "description": "Clerk Auth 기능 구현",
+    "tags": ["next", "node", "tailwindcss", "clerk-auth", "vercel"],
+    "source_code": "https://github.com/junhyeokshin/clerk-auth",
+    "demo": "https://clerk-auth-woad.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "Notice",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "Minecraft Notice plugin",
+    "tags": ["java", "bukkit", "spigot", "minecraft"],
+    "source_code": "https://github.com/junhyeokshin/Notice"
+  }
+]
