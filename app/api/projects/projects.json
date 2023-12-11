@@ -1,18 +1,19 @@
 [
   {
     "id": 1,
-    "name": "발로란트 전적 검색",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "Next.js로 구현한 발로란트 전적 검색 사이트",
-    "tags": ["next", "node", "mongodb", "react", "react-native"],
-    "source_code": "https://github.com/junhyeokshin"
+    "name": "리그오브레전드 전적 검색 사이트",
+    "image": "/images/ggwp.png",
+    "description": "Next.js로 구현한 리그오브레전드 전적 검색 사이트",
+    "tags": ["nextjs", "nodejs", "mongodb", "react", "riot-api"],
+    "source_code": "https://github.com/junhyeokshin/ggwp",
+    "demo": "https://ggwp-lol.vercel.app/"
   },
   {
     "id": 2,
     "name": "Clerk Auth",
-    "image": "https://imgur.com/kbGs6zH.png",
+    "image": "/images/clerk-logo.svg",
     "description": "Clerk Auth 기능 구현",
-    "tags": ["next", "node", "tailwindcss", "clerk-auth", "vercel"],
+    "tags": ["nextjs", "nodejs", "tailwindcss", "clerk-auth", "vercel"],
     "source_code": "https://github.com/junhyeokshin/clerk-auth",
     "demo": "https://clerk-auth-woad.vercel.app/"
   },
@@ -23,5 +24,32 @@
     "description": "Minecraft Notice plugin",
     "tags": ["java", "bukkit", "spigot", "minecraft"],
     "source_code": "https://github.com/junhyeokshin/Notice"
+  },
+  {
+    "id": 4,
+    "name": "Dapara 쇼핑몰 예제 프로젝트",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "Next.js로 구현한 온라인 쇼핑몰 예제 구현",
+    "tags": ["nextjs", "react", "nodejs", "redux"],
+    "source_code": "https://github.com/junhyeokshin/dapara-shopping",
+    "demo": "https://dapara-shopping.vercel.app/"
+  },
+  {
+    "id": 5,
+    "name": "HCJ 데모",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "HTML, CSS, Javascript 기초 예제 프로젝트",
+    "tags": ["HTML", "CSS", "javascript"],
+    "source_code": "https://github.com/junhyeokshin/hcjdemo",
+    "demo": "https://hcjdemo-six.vercel.app/"
+  },
+  {
+    "id": 6,
+    "name": "MongoDB CRUD",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "MongoDB 데이터베이스 CRUD 및 Next Auth 구현",
+    "tags": ["nextjs", "mongodb", "mongoose", "next-auth"],
+    "source_code": "https://github.com/junhyeokshin/mongodb-crud",
+    "demo": "https://mongodb-crud-nine.vercel.app/"
   }
 ]

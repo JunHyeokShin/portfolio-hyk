@@ -1,8 +1,8 @@
 'use client'
 import ProjectCard from '@/components/ProjectCard'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
-export default function page() {
+export default function ProjectsPage() {
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
